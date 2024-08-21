@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.1",
+    "prettier": "^3.3.3",
+    "prettier-plugin-svelte": "^3.2.6",
+    "svelte": "^4.2.18",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.1",
+    "jquery": "^3.7.1",
+    "svelte-infinite-scroll": "^2.0.1",
+    "toastify-js": "^1.12.0"
+  }
+}
